@@ -32,7 +32,7 @@ export default function Navbar() {
 
           <li>
             <Link
-              href="#experiencia"
+              href="#experience"
               className="text-zinc-500 hover:text-zinc-200 transition-colors"
             >
               experiência

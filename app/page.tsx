@@ -45,7 +45,7 @@ export default function Home() {
         />
       </div>
     </main>
-    <section className="max-w-6x1 ml-65 mx-auto px-6 py-16">
+    <section className="max-w-6x1 ml-65 mx-auto px-6 py-16" id="projetos">
       <h2 className="text-3xl font-bold mb-10">
         Projetos
       </h2>
@@ -60,16 +60,16 @@ export default function Home() {
         ))}
       </div>
     </section>
-    <section className="max-w-3xl mx-auto ml-65 px-6">
+    <section className="max-w-3xl mx-auto ml-65 px-6" id="skills">
       <h2 className="text-3xl font-bold mb-10">
         Skills
       </h2>
       <Skills />
     </section>
-    <section>
+    <section id="experience">
       <Experience />
     </section>
-    <section>
+    <section id="contato">
       <Contact />
     </section>
     <section>
